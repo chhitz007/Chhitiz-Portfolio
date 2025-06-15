@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chhitiz Upadhyay | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Splide.js CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <!-- ========== Sticky Navbar ========== -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">Chhitiz</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ========== Hero Section (Split Layout) ========== -->
+    <header id="hero">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Chhitiz Upadhyay</span></h1>
+          <p>Backend Developer & API Specialist</p>
+          <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-image">
+          <img src="/assests/profilepic.jpg" alt="Chhitiz Profile" />
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== About Section (Timeline + Skill Tags) ========== -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2021</span>
+            <p>Started B.Tech in Computer Science (Data Science)</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2023</span>
+            <p>
+              Python Intern at Octanet. Built REST APIs, worked with Flask &
+              MongoDB
+            </p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2024</span>
+            <p>
+              Full Stack Intern at Webskitters. Created Data Science apps with
+              Flask
+            </p>
+          </div>
+        </div>
+
+        <h3 class="skills-heading">Technologies I Work With</h3>
+        <ul class="skills-tag-grid">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>FastAPI</li>
+          <li>Django</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>REST APIs</li>
+          <li>JWT Auth</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Streamlit</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== Projects Section ========== -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div id="project-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="project-box">
+                  <h3>🎬 Movie Recommender</h3>
+                  <p>Content-based filtering app using Python & Streamlit.</p>
+                  <a
+                    href="https://github.com/chhitz007/Movies-Recommendation-System"
+                    target="_blank"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="project-box">
+                  <h3>📋 Task Manager API</h3>
+                  <p>FastAPI backend with JWT & PostgreSQL.</p>
+                  <a
+                    href="https://github.com/chhitz007/Task-Manger-API"
+                    target="_blank"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </li>
+
+              <li class="splide__slide">
+                <div class="project-box">
+                  <h3>🌦️ Weather ChatBot</h3>
+                  <p>Live weather chatbot built with Tkinter.</p>
+                  <a
+                    href="https://github.com/chhitz007/Weather-Chat-Bot"
+                    target="_blank"
+                    >GitHub ↗</a
+                  >
+                </div>
+              </li>
+
+              <!-- Goona Add more slides as later -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Skills Section ========== -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/html-5--v1.png"
+              alt="HTML"
+            />
+            <span>HTML</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://img.icons8.com/color/48/css3.png" alt="CSS" />
+            <span>CSS</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/javascript--v1.png"
+              alt="JavaScript"
+            />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/fluency/48/python.png"
+              alt="Python"
+            />
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+              alt="Java"
+            />
+            <span>Java</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.simpleicons.org/nextdotjs/FFFFFF"
+              alt="Next.js"
+              width="48"
+              height="48"
+            />
+
+            <span>Next.js</span>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/django.png"
+              alt="Django"
+            />
+            <span>Django</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/api-settings.png"
+              alt="REST API"
+            />
+            <span>REST APIs</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/postgreesql.png"
+              alt="PostgreSQL"
+            />
+            <span>PostgreSQL</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+              alt="MongoDB"
+            />
+            <span>MongoDB</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/fluency/48/github.png"
+              alt="GitHub"
+            />
+            <span>Git & GitHub</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/bootstrap.png"
+              alt="Bootstrap"
+            />
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/tableau-software.png"
+              alt="Tableau"
+            />
+            <span>Tableau</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/power-bi.png"
+              alt="Power BI"
+            />
+            <span>Power BI</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/visual-studio-code-2019.png"
+              alt="VS Code"
+            />
+            <span>VS Code</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/color/48/tailwind_css.png"
+              alt="Tailwind CSS"
+            />
+            <span>Tailwind CSS</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"
+              alt="Kaggle"
+              style="width: 40px; height: 40px"
+            />
+            <span>Kaggle</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://streamlit.io/images/brand/streamlit-mark-color.png"
+              alt="Streamlit"
+              style="width: 48px; height: 48px"
+            />
+            <span>Streamlit</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg"
+              alt="Jupyter"
+              style="width: 48px; height: 48px"
+            />
+            <span>Jupyter</span>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
+              alt="Postman"
+            />
+            <span>Postman</span>
+          </div>
+
+          <div class="skill-card">
+            <img
+              src="https://img.icons8.com/fluency/48/mysql-logo.png"
+              alt="MySQL"
+            />
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Contact Section ========== -->
+    <section id="contact">
+      <div class="container contact-container">
+        <h2>Let’s Connect</h2>
+        <p>
+          I'm always open to new opportunities, collaborations, or just a tech
+          chat. Reach out via:
+        </p>
+
+        <div class="contact-cards">
+          <a
+            href="mailto:chhitizupadhyay123@gmail.com"
+            class="contact-card"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/fluency/48/000000/apple-mail.png"
+              alt="Email Icon"
+            />
+            <span>Email</span>
+          </a>
+          <a
+            href="https://github.com/chhitz007"
+            class="contact-card"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/fluency/48/github.png"
+              alt="GitHub Icon"
+            />
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chhitizupadhyay/"
+            class="contact-card"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/fluency/48/linkedin.png"
+              alt="LinkedIn Icon"
+            />
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Footer ========== -->
+    <footer>
+      <p>© 2025 Chhitiz Upadhyay. All rights reserved.</p>
+    </footer>
+
+    <!-- ========== Floating Hire Me Button ========== -->
+    <a href="#contact" class="floating-hire">Hire Me 🚀</a>
+    <!-- Splide.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+  </body>
+</html>
