@@ -28,11 +28,6 @@ It showcases my projects, skills, experience, and ways to get in touch — all i
 
 *(Replace this with your actual Netlify link)*
 
----
-
-## 📷 Screenshots
-
-> Add screenshots of your site here (optional)
 
 ---
 
